@@ -1,1 +1,50 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Encriptador Videofix</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="encripdator.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="background">
+
+    <header>
+      <h1 class="title"><strong>ENCRIPTADOR VIDEOFIX</strong></h1>
+      <img src="1logo.png"  alt="logo"  class="logo"/>
+  
+    </header>
+  
+  
+  <main>
+  
+    <form>
+      <textarea id="mensaje" class="msn"></textarea>
+    
+      <textarea id="mostrar" readonly="readonly" class="msn"></textarea>
+    
+      
+      <button type="button" onclick="encriptar()" id="mensaje" class="btn">
+        Encriptar
+      </button>
+      
+      
+      <button type="button" onclick="desEncriptar()" class="btn">
+        Desencriptar
+      </button>
+      
+      
+      <button type="button" onclick="copy()" class="btn">Copy</button>
+      
+    </form>
+  </main>
+  </div>
+  
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+
+
+html{
+    width: 60%;
+    margin: 40px auto;
+font-family: 'Rowdies', cursive;
+border: solid #293241;
+border-radius: 10px;
+
+
+}
+.background{
+    background-image: url(matrix\ azul.jpg);
+}
+
+
+.logo{
+   width: 200px;
+   display: inline;
+   float: left;
+}
+
+.title{
+    background-color: #dbff00;
+
+text-align: center;
+
+
+}
+.msn{
+    width: 80%;
+    height: 10rem;
+    margin: 10px 10% 10px 10%;
+    font-size: 1.5em;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #AAAA ;
+    
+}
+.msn:hover{background-color:#AAAA ;transition: 500ms;}
+
+.btn{
+    width: 20%;
+    height: 50px;
+    margin: 10px 0 10px 10%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px black ;
+
+    
+}
+.btn:hover{background-color: #AAAA;transition: 500ms;}
+
+@media screen and (max-width: 414px){
+    .title{font-size: 16px};
+    .logo{
+        width:150px;}
+    .btn{width: 80%; 
+        margin: 10px 10% 10px 10%;
+    };
+
+}
+    
