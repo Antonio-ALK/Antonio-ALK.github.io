@@ -20,9 +20,9 @@ function encriptar(){
 
     
     document.getElementById("mostrar").value = menEncripted2 ;
-   menEncripted2 = '';
+   menEncripted = [];
     
-     
+    
     
 }
 let a = /ai/g;
