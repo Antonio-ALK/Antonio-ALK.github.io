@@ -1,23 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Encriptador</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="encriptador.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <div class="head"><h1 class="title">Encriptador Alura</h1></div>
-      <div class="logo"><img src="1logo.png" alt="logo" width="150px"></div>
-      <div class="msn1"> <textarea id="mensaje" class="texto"></textarea> </div>
-      <div class="msn2"><textarea id="mostrar" class="texto" readonly></textarea></div>
-      <div class="btn1"><button type="button" class="btn" onclick="encrypt()">Encriptar</button></div>
-      <div class="btn2"><button type="button" class="btn" onclick="desEncrypt()">Desencriptar</button></div>
-      <div class="btn3"><button type="button" class="btn" onclick="copy()">Copiar</button></div>   
-      </div>
-    </div>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Encriptador Videofix</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="encripdator.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="background">
+
+    <header>
+      <h1 class="title"><strong>ENCRIPTADOR VIDEOFIX</strong></h1>
+      <img src="1logo.png"  alt="logo"  class="logo"/>
+  
+    </header>
+  
+  
+  <main>
+  
+    <form>
+      <textarea id="mensaje" class="msn"></textarea>
+    
+      <textarea id="mostrar" readonly="readonly" class="msn"></textarea>
+    
+      
+      <button type="button" onclick="encriptar()" id="mensaje" class="btn">
+        Encriptar
+      </button>
+      
+      
+      <button type="button" onclick="desEncriptar()" class="btn">
+        Desencriptar
+      </button>
+      
+      
+      <button type="button" onclick="copy()" class="btn">Copy</button>
+      
+    </form>
+  </main>
+  </div>
+  
+</body>
+
 </html>
