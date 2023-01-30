@@ -6,11 +6,11 @@ function encrypt(){
 let mensaje = document.querySelector('.texto').value;
 console.log(mensaje);
 for(let i of mensaje){
-    if(i === 'a'){menEncrypted.push('ano')}else
+    if(i === 'a'){menEncrypted.push('ai')}else
     if(i === 'e'){menEncrypted.push('enter')}else
-    if(i === 'i'){menEncrypted.push('imen')}else
-    if(i === 'o'){menEncrypted.push('orto')}else
-    if(i === 'u'){menEncrypted.push('untao')}else{ menEncrypted.push(i)};
+    if(i === 'i'){menEncrypted.push('imes')}else
+    if(i === 'o'){menEncrypted.push('ober')}else
+    if(i === 'u'){menEncrypted.push('ufat')}else{ menEncrypted.push(i)};
 }
 console.log(menEncrypted);
 mostrarMen = menEncrypted.join('');
@@ -19,11 +19,11 @@ document.getElementById('mostrar').value = mostrarMen;
 menEncrypted = [];
 }
 
-let a = /ano/g;
+let a = /ai/g;
 let e = /enter/g;
-let i = /imen/g;
-let o = /orto/g;
-let u = /untao/g;
+let i = /imes/g;
+let o = /ober/g;
+let u = /ufat/g;
 
 function desEncrypt(){
 let mensaje = document.querySelector('.texto').value;
