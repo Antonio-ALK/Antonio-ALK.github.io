@@ -3,7 +3,7 @@ let menEncrypted = [];
 
 
 function encrypt(){
-let mensaje = document.querySelector('.texto').value;
+let mensaje = document.querySelector('.texto').value.toLowerCase();
 console.log(mensaje);
 for(let i of mensaje){
     if(i === 'a'){menEncrypted.push('ai')}else
